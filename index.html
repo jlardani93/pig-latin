@@ -3,24 +3,23 @@
   <head>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="css/bootstrap.css">
-    <link href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Pig latin</title>
   </head>
   <body>
     <div class="container">
     <h1>Pig Latin</h1>
-
-
-
-
-
-
-
-
-
-
-
+      <form id="sentenceForm">
+        <div class="form-group">
+          <label>Please input a sentence: </label>
+          <input type="text" id="sentence">
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+      <div class="response">
+        <p id="response"></p>
+      </div>
     </div>
   </body>
 </html>
